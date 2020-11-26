@@ -569,7 +569,7 @@
  * Note: For Bowden Extruders make this large enough to allow load/unload.
  */
 #define PREVENT_LENGTHY_EXTRUDE
-#define EXTRUDE_MAXLENGTH 200
+#define EXTRUDE_MAXLENGTH 500
 
 //===========================================================================
 //======================== Thermal Runaway Protection =======================
@@ -1391,7 +1391,7 @@
 
 // Homing speeds (mm/min)
 #define HOMING_FEEDRATE_XY (60*60)
-#define HOMING_FEEDRATE_Z  (12*60)
+#define HOMING_FEEDRATE_Z  (10*60)
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
